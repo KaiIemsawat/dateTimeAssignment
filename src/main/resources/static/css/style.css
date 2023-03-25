@@ -1,0 +1,10 @@
+.container, h3 {
+	margin: 150px auto;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+
+a,h3 {
+	color: cyan;
+}
