@@ -28,15 +28,6 @@ public class DateTimeController {
 		return "index.jsp";
 	}
 	
-//	@PostMapping
-//	public String redirect(
-//			@RequestParam(value="date", required=false) String date
-//			, @RequestParam(value="time", required=false) String time) {
-//		
-//		
-//		
-//		return "";
-//	}
 	
 	@GetMapping("/date")
 	public String datePage(Model m) {
